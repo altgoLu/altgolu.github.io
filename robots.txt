@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://altgolu.github.io/sitemap.xml
