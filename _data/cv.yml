@@ -15,7 +15,7 @@ cv:
         area: Artificial Intelligence
         studyType: Undergraduate
         highlights:
-          - GPA: 4.63 / 5.00; ranked 1st out of 104 students.
+          - "GPA: 4.63 / 5.00; ranked 1st out of 104 students."
           - Focused on AI agents, large language models, and embodied intelligence.
 
     Experience:
@@ -35,10 +35,8 @@ cv:
         keywords: Python, Blender, Isaac Sim, Isaac Lab, Git
 
     Honors:
-      - title: 2025 ICPC Chengdu Regional Contest
-        awarder: Gold Medal
-      - title: 2025 CCSP
-        awarder: Gold Medal
+      - name: 2025 ICPC Chengdu Regional Contest — Gold Medal
+      - name: 2025 CCSP — Gold Medal
 
     Interests:
       - name: Outside research
