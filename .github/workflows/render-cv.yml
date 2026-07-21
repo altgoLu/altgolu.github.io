@@ -42,11 +42,14 @@ jobs:
           rendercv render "$cv_file" \
             --design "$rendercv_dir/design.yaml" \
             --locale-catalog "$rendercv_dir/locale.yaml" \
-            --output-folder-name "../assets/rendercv/rendercv_output" \
+            --output-folder-name "rendercv_output" \
             --dont-generate-markdown \
             --dont-generate-html \
             --dont-generate-png
-          rm assets/rendercv/rendercv_output/*.typ
+          mkdir -p assets/rendercv/rendercv_output
+          rm -f assets/rendercv/rendercv_output/*.pdf
+          mv rendercv_output/*.pdf assets/rendercv/rendercv_output/
+          rm -rf rendercv_output
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
