@@ -23,7 +23,7 @@ latest_posts:
 
 I am **Taiye Lu (卢泰烨)**, an undergraduate student in Artificial Intelligence at Nanjing University.
 
-I am interested in making AI systems that can reason and act reliably in the real world. My current focus is on **AI agents**, **embodied intelligence**, and the engineering systems that make research ideas testable—from simulation pipelines and robot benchmarks to large-language-model infrastructure.
+I am currently working on **simulation environments, task definitions, and evaluation pipelines for embodied AI**. My focus is on building benchmark tasks that make general-purpose robot agents easier to test, compare, and improve.
 
 This site is my public research notebook: a place to document projects, technical lessons, and ideas that are still taking shape. I value clear problem formulations, reproducible experiments, and the habit of turning vague intuitions into things that can be tested.
 
